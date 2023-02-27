@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "app",
+      "module": "commonjs",
+      "target": "es2016",
+      "jsx": "react",
+      "paths": {
+        "commons": ["../commons/app/"],
+        "commonsv2": ["../commonsv2/app/"],
+        "assets": ["../../assets/"]
+      }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+  }
+  
