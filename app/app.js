@@ -16,6 +16,8 @@ import App from 'containers/App'; // eslint-disable-line
 
 import configureStore from './configureStore';
 
+import {ROOT_PATH} from 'pages/routes';
+
 // Create redux store with history
 const initialState = {};
 const store = configureStore(initialState, history);
@@ -26,7 +28,7 @@ const render = () => {
     <Provider store={store}>
       <ConnectedRouter history={history}>
         <QueryParamProvider ReactRouterRoute={Route}>
-          <Route path="/" component={App} />
+          <Route path={ROOT_PATH} component={App} />
         </QueryParamProvider>
       </ConnectedRouter>
     </Provider>,
