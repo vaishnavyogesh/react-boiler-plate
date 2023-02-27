@@ -1,5 +1,5 @@
 {
-    "name": "provider-groups-app",
+    "name": "react-app",
     "scripts": {
       "react-scripts": "../../../node_modules/.bin/react-scripts",
       "start": "npm run react-scripts start",
